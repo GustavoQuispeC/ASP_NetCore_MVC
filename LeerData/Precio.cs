@@ -11,6 +11,6 @@ namespace LeerData
         public decimal PrecioActual{get;set;}
         public decimal Promocion {get; set;}
         public int LibroId {get; set;}
-        public Libro? libro {get; set;} //FK
+        public Libro? Libro {get; set;} //aNCLA
     }
 }
